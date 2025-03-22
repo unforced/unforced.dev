@@ -1,14 +1,11 @@
-
 import React from 'react';
 import Button from '@/components/Button';
 import SectionDivider from '@/components/SectionDivider';
 import CallToAction from '@/components/CallToAction';
 import { ArrowRight, Book, Code, Heart } from 'lucide-react';
 import { Link } from 'react-router-dom';
-
 const AboutPage = () => {
-  return (
-    <main className="overflow-hidden pt-16">
+  return <main className="overflow-hidden pt-16">
       {/* Hero Section */}
       <section className="min-h-[60vh] pt-16 relative flex items-center">
         <div className="container mx-auto px-4 pt-8 pb-24 sm:px-6 lg:px-8 relative z-10">
@@ -37,11 +34,7 @@ const AboutPage = () => {
             <div className="order-1 md:order-2 flex justify-center">
               <div className="relative w-full max-w-md">
                 <div className="absolute inset-0 bg-gradient-to-br from-sage-300/40 to-water-300/40 rounded-3xl transform rotate-3 scale-105"></div>
-                <img
-                  src="/aaron-placeholder.jpg"
-                  alt="Aaron Gabriel doing Tai Chi in Boulder"
-                  className="rounded-3xl shadow-xl relative z-10 object-cover w-full h-full aspect-[3/4]"
-                />
+                <img alt="Aaron Gabriel doing Tai Chi in Boulder" className="rounded-3xl shadow-xl relative z-10 object-cover w-full h-full aspect-[3/4]" src="/lovable-uploads/a6756fe0-2941-47f1-975e-7bafdcdcc688.jpg" />
               </div>
             </div>
           </div>
@@ -83,11 +76,7 @@ const AboutPage = () => {
         
         <div className="absolute top-0 right-0 w-1/3 h-full opacity-10">
           <svg viewBox="0 0 200 800" xmlns="http://www.w3.org/2000/svg">
-            <path
-              fill="#6495ED"
-              d="M42.9,-76.4C55.5,-69.2,65.9,-57.7,74.1,-44.7C82.3,-31.6,88.4,-16.9,89.2,-1.8C90,13.2,85.6,28.5,77.4,41.3C69.2,54.1,57.1,64.5,43.6,71.8C30.1,79.1,15.1,83.3,-0.2,83.7C-15.5,84,-31,80.5,-44.1,73C-57.1,65.4,-67.8,53.7,-75.7,40.1C-83.5,26.5,-88.6,11.1,-87.8,-4.1C-87,-19.2,-80.3,-34.4,-70.6,-47.2C-60.8,-60,-48,-70.5,-34.1,-76.9C-20.2,-83.3,-5.1,-85.7,9.2,-82.2C23.6,-78.7,47.1,-69.3,42.9,-76.4Z"
-              transform="translate(100 350)"
-            />
+            <path fill="#6495ED" d="M42.9,-76.4C55.5,-69.2,65.9,-57.7,74.1,-44.7C82.3,-31.6,88.4,-16.9,89.2,-1.8C90,13.2,85.6,28.5,77.4,41.3C69.2,54.1,57.1,64.5,43.6,71.8C30.1,79.1,15.1,83.3,-0.2,83.7C-15.5,84,-31,80.5,-44.1,73C-57.1,65.4,-67.8,53.7,-75.7,40.1C-83.5,26.5,-88.6,11.1,-87.8,-4.1C-87,-19.2,-80.3,-34.4,-70.6,-47.2C-60.8,-60,-48,-70.5,-34.1,-76.9C-20.2,-83.3,-5.1,-85.7,9.2,-82.2C23.6,-78.7,47.1,-69.3,42.9,-76.4Z" transform="translate(100 350)" />
           </svg>
         </div>
       </section>
@@ -218,8 +207,6 @@ const AboutPage = () => {
       
       {/* CTA Section */}
       <CallToAction />
-    </main>
-  );
+    </main>;
 };
-
 export default AboutPage;
