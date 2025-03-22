@@ -1,0 +1,10 @@
+
+<svg width="400" height="400" viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg">
+  <filter id="noise">
+    <feTurbulence type="fractalNoise" baseFrequency="0.08" numOctaves="3" result="noise" />
+    <feDisplacementMap in="SourceGraphic" in2="noise" scale="8" />
+  </filter>
+  <path d="M0,200 Q100,170 200,200 T400,200 L400,400 L0,400 Z" fill="#6495ED" opacity="0.2" filter="url(#noise)" />
+  <path d="M0,230 Q100,200 200,230 T400,230 L400,400 L0,400 Z" fill="#6495ED" opacity="0.2" filter="url(#noise)" />
+  <path d="M0,260 Q100,230 200,260 T400,260 L400,400 L0,400 Z" fill="#6495ED" opacity="0.15" filter="url(#noise)" />
+</svg>
