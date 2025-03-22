@@ -15,13 +15,9 @@ const AboutPage = () => {
                 Who I Am
               </h1>
               
-              <p className="text-lg text-sage-600 mb-8">
-                I'm Aaron Gabriel, a Boulder-based builder blending somatic therapy, ecopsychology, and creative technology to help you share what you're here to give. I've studied Hakomi psychotherapy, hold an MA in Ecopsychology, and I'm working on an MS in Creative Technology & Design (after a BS in Computer Science). I run a nonprofit, build apps, host events—living what's possible when we bring our gifts out.
-              </p>
+              <p className="text-lg text-sage-600 mb-8">zI'm Aaron Gabriel, a Boulder-based builder blending somatic therapy, ecopsychology, and creative technology to help you share what you're here to give. I've studied Hakomi psychotherapy, hold an MA in Ecopsychology, and I'm working on an MS in Creative Technology & Design (after a BS in Computer Science). I run a nonprofit, build apps, host events, and bring </p>
               
-              <p className="text-lg text-sage-600 mb-8">
-                Why? Because I believe the world needs what you've got, and I'm here to help it flow.
-              </p>
+              <p className="text-lg text-sage-600 mb-8">Why? Because the world needs you, and I'm here to help you bring your gifts out.</p>
               
               <Link to="/contact">
                 <Button className="group">
@@ -154,7 +150,7 @@ const AboutPage = () => {
               <div className="bg-white rounded-xl p-6 shadow-soft border-l-4 border-l-sage-500">
                 <div className="flex flex-col md:flex-row md:justify-between mb-2">
                   <h3 className="text-xl font-display font-semibold text-sage-800">MS in Creative Technology & Design</h3>
-                  <span className="text-sage-500">In Progress</span>
+                  <span className="text-sage-500">Graduating May 2026</span>
                 </div>
                 <p className="text-sage-600">
                   University of Colorado, Boulder
@@ -164,7 +160,7 @@ const AboutPage = () => {
               <div className="bg-white rounded-xl p-6 shadow-soft border-l-4 border-l-sage-500">
                 <div className="flex flex-col md:flex-row md:justify-between mb-2">
                   <h3 className="text-xl font-display font-semibold text-sage-800">MA in Ecopsychology</h3>
-                  <span className="text-sage-500">2018</span>
+                  <span className="text-sage-500">May 2022</span>
                 </div>
                 <p className="text-sage-600">
                   Naropa University, Boulder
@@ -174,21 +170,17 @@ const AboutPage = () => {
               <div className="bg-white rounded-xl p-6 shadow-soft border-l-4 border-l-sage-500">
                 <div className="flex flex-col md:flex-row md:justify-between mb-2">
                   <h3 className="text-xl font-display font-semibold text-sage-800">BS in Computer Science</h3>
-                  <span className="text-sage-500">2012</span>
+                  <span className="text-sage-500">May 2015</span>
                 </div>
-                <p className="text-sage-600">
-                  University of Colorado, Boulder
-                </p>
+                <p className="text-sage-600">Case Western Reserve University, Cleveland</p>
               </div>
               
               <div className="bg-white rounded-xl p-6 shadow-soft border-l-4 border-l-earth-500">
                 <div className="flex flex-col md:flex-row md:justify-between mb-2">
-                  <h3 className="text-xl font-display font-semibold text-sage-800">Hakomi Psychotherapy Training</h3>
+                  <h3 className="text-xl font-display font-semibold text-sage-800">Hakomi Level 1 Comprehensive</h3>
                   <span className="text-sage-500">2016</span>
                 </div>
-                <p className="text-sage-600">
-                  Hakomi Institute of the Rockies
-                </p>
+                <p className="text-sage-600">Hakomi Institute</p>
               </div>
               
               <div className="bg-white rounded-xl p-6 shadow-soft border-l-4 border-l-water-500">
