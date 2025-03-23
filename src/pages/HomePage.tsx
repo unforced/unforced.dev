@@ -1,16 +1,21 @@
+
 import React from 'react';
 import Button from '@/components/Button';
 import SectionDivider from '@/components/SectionDivider';
 import CallToAction from '@/components/CallToAction';
 import { ArrowRight, Calendar, MessageCircle, Sparkles } from 'lucide-react';
 import { Link } from 'react-router-dom';
+import { useIsMobile } from '@/hooks/use-mobile';
+
 const HomePage = () => {
+  const isMobile = useIsMobile();
+  
   return <main className="overflow-hidden">
       {/* Hero Section */}
       <section className="min-h-screen pt-16 relative flex items-center">
         <div className="container mx-auto px-4 pt-16 pb-24 sm:px-6 lg:px-8 relative z-10">
           <div className="grid md:grid-cols-2 gap-12 items-center">
-            <div className="order-2 md:order-1 animate-fade-in">
+            <div className={`${isMobile ? 'order-1' : 'order-2 md:order-1'} animate-fade-in`}>
               <span className="px-3 py-1 text-sm bg-sage-100 text-sage-800 rounded-full inline-block mb-6 animate-slide-in opacity-0" style={{
               animationDelay: '0.3s',
               animationFillMode: 'forwards'
@@ -52,7 +57,7 @@ const HomePage = () => {
               </div>
             </div>
             
-            <div className="order-1 md:order-2 flex justify-center">
+            <div className={`${isMobile ? 'order-2' : 'order-1 md:order-2'} flex justify-center`}>
               <div className="relative w-full max-w-md animate-float">
                 <div className="absolute inset-0 bg-gradient-to-br from-sage-300/40 to-water-300/40 rounded-3xl transform rotate-3 scale-105 opacity-70"></div>
                 <img alt="Aaron Gabriel in Boulder nature setting" className="rounded-3xl shadow-xl relative z-10 object-cover w-full h-full aspect-[3/4]" loading="lazy" src="/lovable-uploads/f6272d22-3f74-4937-bf1c-34c3fecf294b.jpg" />

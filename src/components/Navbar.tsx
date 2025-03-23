@@ -70,8 +70,9 @@ const Navbar = () => {
       {/* Mobile Navigation Menu */}
       <div className={`md:hidden transition-all duration-500 ease-in-out ${isOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0 pointer-events-none'}`}>
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white/90 backdrop-blur-md">
-          <div className="px-3 py-2 text-sm text-sage-600 italic mb-2">
-            Simple steps to share what you're here to give.
+          <div className="px-3 py-2 text-sm text-sage-600 font-medium mb-2">
+            <span className="block text-sage-800">Simple steps to share what you're here to give.</span>
+            <span className="text-xs opacity-80 mt-1 block">Helping builders, dreamers, and helpers share their offerings naturally</span>
           </div>
           {navLinks.map((link) => (
             <Link
