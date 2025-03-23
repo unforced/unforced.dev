@@ -11,7 +11,7 @@ const HeroSection = () => {
     <section className="min-h-screen pt-16 relative flex items-center">
       <div className="container mx-auto px-4 pt-16 pb-24 sm:px-6 lg:px-8 relative z-10">
         <div className="grid md:grid-cols-2 gap-12 items-center">
-          <div className={`${isMobile ? '' : 'order-2 md:order-1'} animate-fade-in`}>
+          <div className={`${isMobile ? 'order-1' : 'order-2 md:order-1'} animate-fade-in`}>
             <span className="px-3 py-1 text-sm bg-sage-100 text-sage-800 rounded-full inline-block mb-6 animate-slide-in opacity-0" style={{
               animationDelay: '0.3s',
               animationFillMode: 'forwards'
@@ -53,8 +53,8 @@ const HeroSection = () => {
             </div>
           </div>
           
-          <div className={`${isMobile ? 'order-2' : 'order-1 md:order-2'} flex justify-center`}>
-            <div className="relative w-full max-w-md animate-float">
+          <div className={`${isMobile ? 'order-1' : 'order-1 md:order-2'} flex flex-col items-center`}>
+            <div className="relative w-full max-w-md animate-float mb-4">
               <div className="absolute inset-0 bg-gradient-to-br from-sage-300/40 to-water-300/40 rounded-3xl transform rotate-3 scale-105 opacity-70"></div>
               <img alt="Aaron Gabriel in Boulder nature setting" className="rounded-3xl shadow-xl relative z-10 object-cover w-full h-full aspect-[3/4]" loading="lazy" src="/lovable-uploads/f6272d22-3f74-4937-bf1c-34c3fecf294b.jpg" />
               <div className="absolute -bottom-4 -right-4 bg-white/90 backdrop-blur-sm rounded-xl p-4 shadow-lg border border-sage-100 transform rotate-2 max-w-[200px]">
@@ -63,6 +63,14 @@ const HeroSection = () => {
                 </p>
               </div>
             </div>
+            
+            {isMobile && (
+              <div className="text-center mb-8">
+                <h3 className="text-xl font-display font-medium text-sage-800 bg-sage-50/70 backdrop-blur-sm py-2 px-4 rounded-lg inline-block shadow-sm border border-sage-200/50">
+                  Aaron Gabriel — <span className="text-earth-600">Builder</span>
+                </h3>
+              </div>
+            )}
           </div>
         </div>
       </div>
