@@ -30,7 +30,7 @@ const Navbar = () => {
         <div className="flex items-center justify-between h-16">
           <div className="flex items-center">
             <Link to="/" className="flex items-center">
-              <span className="text-2xl font-handwritten text-sage-700 tracking-wide animate-flow">Unforced</span>
+              <span className="text-2xl font-handwritten text-sage-700 tracking-wide animate-flow">Unforced Development</span>
             </Link>
           </div>
           
@@ -70,6 +70,9 @@ const Navbar = () => {
       {/* Mobile Navigation Menu */}
       <div className={`md:hidden transition-all duration-500 ease-in-out ${isOpen ? 'max-h-screen opacity-100' : 'max-h-0 opacity-0 pointer-events-none'}`}>
         <div className="px-2 pt-2 pb-3 space-y-1 sm:px-3 bg-white/90 backdrop-blur-md">
+          <div className="px-3 py-2 text-sm text-sage-600 italic mb-2">
+            Simple steps to share what you're here to give.
+          </div>
           {navLinks.map((link) => (
             <Link
               key={link.name}
