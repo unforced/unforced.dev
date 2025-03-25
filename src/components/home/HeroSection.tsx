@@ -20,9 +20,7 @@ const HeroSection = () => {
             <p className="text-lg md:text-xl text-sage-700 mb-8 max-w-xl animate-slide-in opacity-0" style={{
             animationDelay: '0.6s',
             animationFillMode: 'forwards'
-          }}>
-              Simple steps to share what you're here to give.
-            </p>
+          }}>Making it easier to share your gifts.</p>
             
             <p className="text-lg text-sage-600 mb-8 max-w-xl animate-slide-in opacity-0" style={{
             animationDelay: '0.9s',
