@@ -1,22 +1,17 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Mail } from 'lucide-react';
-
 const Footer = () => {
   const currentYear = new Date().getFullYear();
-  
-  return (
-    <footer className="bg-sage-50 border-t border-sage-200 py-12">
+  return <footer className="bg-sage-50 border-t border-sage-200 py-12">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex flex-col md:flex-row justify-between items-center mb-8">
           <div className="mb-6 md:mb-0">
             <Link to="/" className="flex items-center">
               <span className="text-3xl font-handwritten text-sage-700 tracking-wide">Unforced</span>
             </Link>
-            <p className="mt-2 text-sage-600 max-w-md">
-              I believe the world needs what you're here to give, and I'm here to help it flow—unforced, like water finding its way.
-            </p>
+            <p className="mt-2 text-sage-600 max-w-md">The world needs more of who you are. I'm here to help.
+          </p>
           </div>
           
           <div className="grid grid-cols-2 gap-8 sm:grid-cols-3 sm:gap-12">
@@ -105,8 +100,6 @@ const Footer = () => {
           </div>
         </div>
       </div>
-    </footer>
-  );
+    </footer>;
 };
-
 export default Footer;
