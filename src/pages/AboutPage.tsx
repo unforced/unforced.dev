@@ -15,7 +15,7 @@ const AboutPage = () => {
                 Who I Am
               </h1>
               
-              <p className="text-lg text-sage-600 mb-8">I'm Aaron Gabriel, a Boulder-based builder blending somatic therapy, ecopsychology, and creative technology to help you share what you're here to give. I've studied Hakomi psychotherapy, hold an MA in Ecopsychology, and I'm working on an MS in Creative Technology & Design (after a BS in Computer Science). I run a nonprofit, build apps, organize community and more - living what's possible when we bring our gifts out.</p>
+              <p className="text-lg text-sage-600 mb-8">I'm Aaron Gabriel, a Boulder based builder with a background in Ecopsychology, creative technology, and somatic practice. As a life long learner, I am currently pursuing a second masters degree, studying Creative Technology &amp; Design at the ATLAS Institute at CU Boulder. Aside from Unforced Development, I also express my passion through my leadership in Woven Web, a 501c3 organization focused on supporting open source &amp; collaborative software and developing better systems for helping networks to effectively coordinate.</p>
               
               <p className="text-lg text-sage-600 mb-8">Why? Because the world needs you, and I'm here to help you bring your gifts out.</p>
               
