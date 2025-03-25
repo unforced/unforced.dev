@@ -1,12 +1,9 @@
-
 import React from 'react';
 import Button from '@/components/Button';
 import SectionDivider from '@/components/SectionDivider';
 import { Calendar, Mail, MessageCircle } from 'lucide-react';
-
 const ContactPage = () => {
-  return (
-    <main className="overflow-hidden pt-16">
+  return <main className="overflow-hidden pt-16">
       {/* Hero Section */}
       <section className="min-h-[40vh] pt-16 relative flex items-center">
         <div className="container mx-auto px-4 pt-8 pb-12 sm:px-6 lg:px-8 relative z-10">
@@ -14,7 +11,9 @@ const ContactPage = () => {
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-display font-semibold tracking-tight text-sage-900 mb-6 animate-fade-in">
               Let's Connect
             </h1>
-            <p className="text-xl text-sage-600 mb-8 max-w-3xl mx-auto animate-fade-in" style={{ animationDelay: '0.2s' }}>
+            <p className="text-xl text-sage-600 mb-8 max-w-3xl mx-auto animate-fade-in" style={{
+            animationDelay: '0.2s'
+          }}>
               Ready to share what you're here to give? Book below—start with a free chat or dive into a session. I'll confirm, and we'll roll.
             </p>
           </div>
@@ -50,12 +49,7 @@ const ContactPage = () => {
                     <span className="text-sage-600">A no-pressure call to meet and explore what's possible. We'll talk about your goals and see if we're a good fit to work together.</span>
                   </div>
                 </div>
-                <Button
-                  variant="primary"
-                  size="lg"
-                  className="w-full group"
-                  onClick={() => window.open('https://calendly.com/aaron-gabriel/chat', '_blank')}
-                >
+                <Button variant="primary" size="lg" className="w-full group" onClick={() => window.open('https://calendly.com/aaron-gabriel/chat', '_blank')}>
                   <MessageCircle className="mr-2 h-5 w-5 group-hover:animate-flow" />
                   Schedule a Free Chat
                 </Button>
@@ -81,20 +75,10 @@ const ContactPage = () => {
                   </div>
                 </div>
                 <div className="space-y-4">
-                  <Button
-                    variant="secondary"
-                    size="lg"
-                    className="w-full group"
-                    onClick={() => window.open('https://calendly.com/aaron-gabriel/jumpstart', '_blank')}
-                  >
+                  <Button variant="secondary" size="lg" className="w-full group" onClick={() => window.open('https://calendly.com/aaron-gabriel/jumpstart', '_blank')}>
                     Book The Jumpstart
                   </Button>
-                  <Button
-                    variant="outline"
-                    size="lg"
-                    className="w-full group"
-                    onClick={() => window.open('https://calendly.com/aaron-gabriel/session', '_blank')}
-                  >
+                  <Button variant="outline" size="lg" className="w-full group" onClick={() => window.open('https://calendly.com/aaron-gabriel/session', '_blank')}>
                     Book a 1:1 Session
                   </Button>
                 </div>
@@ -120,12 +104,12 @@ const ContactPage = () => {
               <div className="grid md:grid-cols-2 gap-6">
                 <div className="bg-sage-50 rounded-lg p-6 border border-sage-100 text-center">
                   <h3 className="text-xl font-display font-semibold text-sage-800 mb-2">Venmo</h3>
-                  <p className="text-sage-600">@AaronGabriel</p>
+                  <p className="text-sage-600">@unforced</p>
                 </div>
                 
                 <div className="bg-sage-50 rounded-lg p-6 border border-sage-100 text-center">
                   <h3 className="text-xl font-display font-semibold text-sage-800 mb-2">PayPal</h3>
-                  <p className="text-sage-600">aaron@unforced.dev</p>
+                  <p className="text-sage-600">ag@unforced.org</p>
                 </div>
               </div>
             </div>
@@ -145,10 +129,7 @@ const ContactPage = () => {
               If you have any questions that aren't answered here, feel free to reach out directly.
             </p>
             
-            <a 
-              href="mailto:aaron@unforced.dev" 
-              className="inline-flex items-center text-lg text-sage-800 hover:text-sage-600 transition-colors"
-            >
+            <a href="mailto:aaron@unforced.dev" className="inline-flex items-center text-lg text-sage-800 hover:text-sage-600 transition-colors">
               <Mail className="h-6 w-6 mr-2" />
               aaron@unforced.dev
             </a>
@@ -173,8 +154,6 @@ const ContactPage = () => {
           </div>
         </div>
       </section>
-    </main>
-  );
+    </main>;
 };
-
 export default ContactPage;
