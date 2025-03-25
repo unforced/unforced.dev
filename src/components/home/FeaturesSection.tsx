@@ -1,12 +1,9 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { ArrowRight, MessageCircle, Sparkles, Calendar } from 'lucide-react';
 import Button from '@/components/Button';
-
 const FeaturesSection = () => {
-  return (
-    <section className="py-24 relative">
+  return <section className="py-24 relative">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8">
         <div className="max-w-3xl mx-auto text-center mb-16">
           <h2 className="text-3xl md:text-4xl font-display font-semibold text-sage-800 mb-6 flowing-border pb-2 inline-block">
@@ -23,9 +20,7 @@ const FeaturesSection = () => {
               <MessageCircle className="h-6 w-6 text-sage-600" />
             </div>
             <h3 className="text-xl font-display font-semibold text-sage-800 mb-3">We Talk</h3>
-            <p className="text-sage-600">
-              A 1-hour call where I ask, you share, and we uncover what you're here to give. My Hakomi background keeps it real and present—you'll feel heard.
-            </p>
+            <p className="text-sage-600">A 1-hour call where I ask, you share, and we uncover what you're here to give. My focus is on understanding who you are and what you're bringing into the world. I'll leave from this with the information needed to build you a website and you'll leave from it feeling deeply heard and understood.</p>
           </div>
           
           <div className="bg-white rounded-xl p-6 shadow-soft transition-all duration-300 hover:shadow-lg hover:translate-y-[-4px]">
@@ -58,8 +53,6 @@ const FeaturesSection = () => {
           </Link>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default FeaturesSection;
