@@ -52,13 +52,9 @@ const AboutPage = () => {
             </h2>
             
             <div className="prose prose-lg prose-sage max-w-none">
-              <p>
-                I'm the son of a carpenter in a long line of builders—my dad taught me 'unforced' through his craft and Tai Chi. Growing up, I watched him work with wood, his movements flowing and purposeful, never rushed or forced. He showed me that the most beautiful creations come from respecting the material and working with its natural qualities.
-              </p>
+              <p>I'm the son of a carpenter in a long line of builders—my dad, Joe, taught me 'unforced' through his craft and Tai Chi. Growing up, I watched him work with wood, his movements flowing and purposeful, never rushed or forced. He showed me that the most beautiful creations come from respecting the material and working with its natural qualities.</p>
               
-              <p>
-                When he introduced me to Tai Chi, I began to understand even more deeply the philosophy of Wu Wei—effortless action—that would later become the foundation of my work. The idea that water doesn't struggle to flow around obstacles but simply finds its natural path resonated deeply with me.
-              </p>
+              <p>When he introduced me to Tai Chi, I began to understand even more deeply the philosophy of Wu Wei—effortless action—that would later become the foundation of my work. The idea that water doesn't struggle to flow around obstacles but simply finds its natural path resonated deeply with me.</p>
               
               <p>
                 I carry that legacy into everything I do, shaping tools and spaces for your growth. My formal education spans computer science, ecopsychology, and now creative technology—but my most profound education came from watching my father embody these principles.
