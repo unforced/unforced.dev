@@ -25,9 +25,7 @@ const HeroSection = () => {
             <p className="text-lg text-sage-600 mb-8 max-w-xl animate-slide-in opacity-0" style={{
             animationDelay: '0.9s',
             animationFillMode: 'forwards'
-          }}>
-              Hey, I'm Aaron Gabriel. I work with folks like you—builders, dreamers, helpers—to share what you're here to give. Through understanding, a little tech magic, and a process that flows, we'll get your ideas out there.
-            </p>
+          }}>Hey, I'm Aaron Gabriel. I work with folks like you—creators, thinkers, organizers, and helpers—to share your gifts with the world. Through understanding, a little tech magic, and an easy and intuitive process, we'll clear out the roadblocks and pave a pathway for more of you to come into the world.</p>
             
             <div className="flex flex-col sm:flex-row gap-4 animate-slide-in opacity-0" style={{
             animationDelay: '1.2s',
