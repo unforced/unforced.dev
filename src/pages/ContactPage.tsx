@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Button from '@/components/Button';
 import SectionDivider from '@/components/SectionDivider';
@@ -49,7 +50,7 @@ const ContactPage = () => {
                     <span className="text-sage-600">A no-pressure call to meet and explore what's possible. We'll talk about your goals and see if we're a good fit to work together.</span>
                   </div>
                 </div>
-                <Button variant="primary" size="lg" className="w-full group" onClick={() => window.open('https://calendly.com/aaron-gabriel/chat', '_blank')}>
+                <Button variant="primary" size="lg" className="w-full group" onClick={() => window.open('https://cal.com/unforced/30min', '_blank')}>
                   <MessageCircle className="mr-2 h-5 w-5 group-hover:animate-flow" />
                   Schedule a Free Chat
                 </Button>
@@ -75,10 +76,10 @@ const ContactPage = () => {
                   </div>
                 </div>
                 <div className="space-y-4">
-                  <Button variant="secondary" size="lg" className="w-full group" onClick={() => window.open('https://calendly.com/aaron-gabriel/jumpstart', '_blank')}>
+                  <Button variant="secondary" size="lg" className="w-full group" onClick={() => window.open('https://cal.com/unforced/jumpstart-1st-session', '_blank')}>
                     Book The Jumpstart
                   </Button>
-                  <Button variant="outline" size="lg" className="w-full group" onClick={() => window.open('https://calendly.com/aaron-gabriel/session', '_blank')}>
+                  <Button variant="outline" size="lg" className="w-full group" onClick={() => window.open('https://cal.com/unforced/60min', '_blank')}>
                     Book a 1:1 Session
                   </Button>
                 </div>

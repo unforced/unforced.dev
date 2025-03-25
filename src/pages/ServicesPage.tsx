@@ -27,7 +27,7 @@ const ServicesPage = () => {
                 variant="primary"
                 size="lg"
                 className="group"
-                onClick={() => window.open('https://calendly.com/aaron-gabriel/session', '_blank')}
+                onClick={() => window.open('https://cal.com/unforced/60min', '_blank')}
               >
                 <Calendar className="mr-2 h-5 w-5 group-hover:animate-flow" />
                 Schedule a 1:1 Session
@@ -238,7 +238,7 @@ const ServicesPage = () => {
                       variant="primary"
                       size="lg"
                       className="w-full group"
-                      onClick={() => window.open('https://calendly.com/aaron-gabriel/session', '_blank')}
+                      onClick={() => window.open('https://cal.com/unforced/60min', '_blank')}
                     >
                       <Calendar className="mr-2 h-5 w-5 group-hover:animate-flow" />
                       Book a Session

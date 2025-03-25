@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Button from '@/components/Button';
 import SectionDivider from '@/components/SectionDivider';
@@ -26,7 +27,7 @@ const JumpstartPage = () => {
             <div className="animate-fade-in" style={{
             animationDelay: '0.6s'
           }}>
-              <Button variant="primary" size="lg" className="group" onClick={() => window.open('https://calendly.com/aaron-gabriel/jumpstart', '_blank')}>
+              <Button variant="primary" size="lg" className="group" onClick={() => window.open('https://cal.com/unforced/jumpstart-1st-session', '_blank')}>
                 <Calendar className="mr-2 h-5 w-5 group-hover:animate-flow" />
                 Book Your Jumpstart
               </Button>
@@ -214,7 +215,7 @@ const JumpstartPage = () => {
                     <span className="text-3xl font-display font-bold text-sage-800">$500</span>
                     <p className="text-sage-600 mb-4">for the complete package</p>
                     <p className="text-sm text-sage-500 mb-6">2 sessions + build time</p>
-                    <Button variant="primary" size="lg" className="w-full group" onClick={() => window.open('https://calendly.com/aaron-gabriel/jumpstart', '_blank')}>
+                    <Button variant="primary" size="lg" className="w-full group" onClick={() => window.open('https://cal.com/unforced/jumpstart-1st-session', '_blank')}>
                       <Calendar className="mr-2 h-5 w-5 group-hover:animate-flow" />
                       Book Your Jumpstart
                     </Button>

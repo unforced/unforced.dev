@@ -25,7 +25,7 @@ const CallToAction = () => {
               variant="primary"
               size="lg"
               className="w-full sm:w-auto group"
-              onClick={() => window.open('https://calendly.com/aaron-gabriel/chat', '_blank')}
+              onClick={() => window.open('https://cal.com/unforced/30min', '_blank')}
             >
               <MessageCircle className="mr-2 h-5 w-5 group-hover:animate-flow" />
               Chat With Me (Free)
@@ -35,7 +35,7 @@ const CallToAction = () => {
               variant="secondary"
               size="lg"
               className="w-full sm:w-auto group"
-              onClick={() => window.open('https://calendly.com/aaron-gabriel/jumpstart', '_blank')}
+              onClick={() => window.open('https://cal.com/unforced/jumpstart-1st-session', '_blank')}
             >
               <Calendar className="mr-2 h-5 w-5 group-hover:animate-flow" />
               Book a Session
