@@ -1,11 +1,8 @@
-
 import React from 'react';
 import Button from '@/components/Button';
 import { Calendar, Check } from 'lucide-react';
-
 const PricingSection = () => {
-  return (
-    <section className="py-20 bg-sage-50 relative overflow-hidden">
+  return <section className="py-20 bg-sage-50 relative overflow-hidden">
       <div className="container mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         <div className="max-w-4xl mx-auto">
           <div className="bg-white rounded-2xl overflow-hidden shadow-xl">
@@ -61,7 +58,7 @@ const PricingSection = () => {
               
               <div className="md:w-1/3 text-center">
                 <div className="bg-sage-50 rounded-xl p-6 border border-sage-100">
-                  <span className="text-3xl font-display font-bold text-sage-800">$500</span>
+                  <span className="text-3xl font-display font-bold text-sage-800">$500 (Introductory Price)</span>
                   <p className="text-sage-600 mb-4">for the complete package</p>
                   <p className="text-sm text-sage-500 mb-6">2 sessions + build time</p>
                   <Button variant="primary" size="lg" className="w-full group" onClick={() => window.open('https://cal.com/unforced/jumpstart-1st-session', '_blank')}>
@@ -76,8 +73,6 @@ const PricingSection = () => {
           </div>
         </div>
       </div>
-    </section>
-  );
+    </section>;
 };
-
 export default PricingSection;
