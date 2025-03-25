@@ -91,9 +91,7 @@ const JumpstartPage = () => {
                 </div>
                 <div className="flex-1 pt-2">
                   <h3 className="text-2xl font-display font-semibold text-sage-800 mb-4">I Build</h3>
-                  <p className="text-lg text-sage-600 mb-6">
-                    Between sessions, I create a website that fits you, a detailed doc of our talk (your 'source of truth'), and a custom how-to guide—using AI and my tech skills to make it happen fast.
-                  </p>
+                  <p className="text-lg text-sage-600 mb-6">Between sessions, I create a website that fits you, a detailed doc of our talk, and a custom how-to guide—using AI and my tech skills to make it happen fast.</p>
                   <div className="bg-white rounded-xl p-6 shadow-soft border border-earth-100">
                     <h4 className="text-lg font-semibold text-sage-800 mb-3">What I'll create:</h4>
                     <ul className="space-y-3">
