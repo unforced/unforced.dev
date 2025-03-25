@@ -243,6 +243,11 @@ const JumpstartPage = () => {
               </div>
               
               <div className="bg-white rounded-xl p-6 shadow-soft border border-sage-100">
+                <h3 className="text-xl font-display font-semibold text-sage-800 mb-2">How long will it take?</h3>
+                <p className="text-sage-600">I will typically have your initial build completed 1-2 days after our first call. Before we schedule the second call, I will share with you the first draft and ask for you to take some time to reflect on any major changes. Once you feel ready, we can schedule the second call and we'll have it all published during the session. The whole process can take as little as 2-3 days.</p>
+              </div>
+              
+              <div className="bg-white rounded-xl p-6 shadow-soft border border-sage-100">
                 <h3 className="text-xl font-display font-semibold text-sage-800 mb-2">What if I need changes after our second session?</h3>
                 <p className="text-sage-600">
                   You'll have the skills to make many changes yourself! For more complex updates or if you need support, we can schedule additional 1:1 sessions at my hourly rate, or you can use the guide I provide to make changes on your own.
