@@ -58,7 +58,7 @@ const AboutPage = () => {
               
               <p>I carry that legacy into everything I do, shaping tools and spaces for your growth. My formal education spans computer science, ecopsychology, and now creative technology—but my most profound education came from watching my dad embody these principles.</p>
               
-              <p>A Tai Chi practitioner and tech lover myself, I am constantly exploring new ways to stay balanced and connected in an increasingly tech-centric world. My dad passed in 2015, but his spirit's in this work. Every time I help someone flow their gifts into the world without struggle, I feel connected to his wisdom.</p>
+              <p>A Tai Chi practitioner and tech lover myself, I am constantly exploring new ways to stay balanced and connected in an increasingly tech-centric world. My dad passed in 2015, but his spirit is in this work. Every time I help someone bring more their gifts into the world without struggle, I feel connected to his wisdom.</p>
             </div>
           </div>
         </div>
