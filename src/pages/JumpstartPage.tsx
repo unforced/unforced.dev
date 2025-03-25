@@ -195,7 +195,7 @@ const JumpstartPage = () => {
                     <li className="flex items-start">
                       <Check className="h-5 w-5 text-sage-500 mr-3 mt-0.5" />
                       <div>
-                        <span className="font-semibold text-sage-800">Call recordings</span>
+                        <span className="font-semibold text-sage-800">Call transcripts</span>
                         <p className="text-sage-600 mt-1">Reference both sessions whenever needed</p>
                       </div>
                     </li>
