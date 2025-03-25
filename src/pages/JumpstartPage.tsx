@@ -77,7 +77,7 @@ const JumpstartPage = () => {
                       </li>
                       <li className="flex items-start">
                         <Check className="h-5 w-5 text-sage-500 mr-2 mt-0.5" />
-                        <span>Complete recording for your reference</span>
+                        <span>Full transcript of our talk for your reference</span>
                       </li>
                     </ul>
                   </div>
@@ -109,7 +109,7 @@ const JumpstartPage = () => {
                       </li>
                       <li className="flex items-start">
                         <Check className="h-5 w-5 text-earth-500 mr-2 mt-0.5" />
-                        <span>All technical aspects handled (domain, hosting, etc.)</span>
+                        <span>Sorted out technical details (hosting, etc...)</span>
                       </li>
                     </ul>
                   </div>
@@ -263,9 +263,7 @@ const JumpstartPage = () => {
               
               <div className="bg-white rounded-xl p-6 shadow-soft border border-sage-100">
                 <h3 className="text-xl font-display font-semibold text-sage-800 mb-2">What about hosting costs and domain names?</h3>
-                <p className="text-sage-600">
-                  The $500 package includes my time and expertise. You'll need to purchase a domain name (typically $10-15/year) and hosting (usually $5-15/month). I'll guide you through these purchases during our process, keeping costs minimal while ensuring quality.
-                </p>
+                <p className="text-sage-600">The $500 package includes my time and expertise. You'll need to bring your own domain name, but I will teach you how to set up your own hosting for free. I'll guide you through all of this during our process, keeping costs minimal while ensuring quality.</p>
               </div>
             </div>
           </div>
