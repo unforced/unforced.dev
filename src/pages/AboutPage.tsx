@@ -17,7 +17,8 @@ const AboutPage = () => {
               
               <p className="text-lg text-sage-600 mb-8">I'm Aaron Gabriel, a Boulder based builder with a background in Ecopsychology, creative technology, and somatic practice. As a life long learner, I am currently pursuing a second masters degree, studying Creative Technology &amp; Design at the ATLAS Institute at CU Boulder. Aside from Unforced Development, I also express my passion through my leadership in Woven Web, a 501c3 organization focused on supporting open source &amp; collaborative software and developing better systems for helping networks to effectively coordinate.</p>
               
-              <p className="text-lg text-sage-600 mb-8">Why? Because the world needs you, and I'm here to help you bring your gifts out.</p>
+              <p className="text-lg text-sage-600 mb-8">
+            </p>
               
               <Link to="/contact">
                 <Button className="group">
