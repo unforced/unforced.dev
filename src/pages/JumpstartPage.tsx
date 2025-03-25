@@ -1,14 +1,11 @@
-
 import React from 'react';
 import Button from '@/components/Button';
 import SectionDivider from '@/components/SectionDivider';
 import CallToAction from '@/components/CallToAction';
 import { Calendar, Check, ChevronRight, MessageCircle, Moon, Sun } from 'lucide-react';
 import { Link } from 'react-router-dom';
-
 const JumpstartPage = () => {
-  return (
-    <main className="overflow-hidden pt-16">
+  return <main className="overflow-hidden pt-16">
       {/* Hero Section */}
       <section className="min-h-[70vh] pt-16 relative flex items-center">
         <div className="container mx-auto px-4 pt-8 pb-24 sm:px-6 lg:px-8 relative z-10">
@@ -16,19 +13,20 @@ const JumpstartPage = () => {
             <h1 className="text-4xl sm:text-5xl md:text-6xl font-display font-semibold tracking-tight text-sage-900 mb-6 animate-fade-in">
               The Jumpstart
             </h1>
-            <p className="text-xl md:text-2xl text-sage-700 mb-8 max-w-3xl mx-auto animate-fade-in" style={{ animationDelay: '0.2s' }}>
+            <p className="text-xl md:text-2xl text-sage-700 mb-8 max-w-3xl mx-auto animate-fade-in" style={{
+            animationDelay: '0.2s'
+          }}>
               From You to the World in Two Sessions
             </p>
-            <p className="text-lg text-sage-600 mb-10 max-w-3xl mx-auto animate-fade-in" style={{ animationDelay: '0.4s' }}>
+            <p className="text-lg text-sage-600 mb-10 max-w-3xl mx-auto animate-fade-in" style={{
+            animationDelay: '0.4s'
+          }}>
               This is how we begin. In two sessions, I'll listen deeply, build you a website that feels like you, and set you up with tools to keep going. It's about getting you—your heart, your work—and helping it flow out naturally.
             </p>
-            <div className="animate-fade-in" style={{ animationDelay: '0.6s' }}>
-              <Button
-                variant="primary"
-                size="lg"
-                className="group"
-                onClick={() => window.open('https://calendly.com/aaron-gabriel/jumpstart', '_blank')}
-              >
+            <div className="animate-fade-in" style={{
+            animationDelay: '0.6s'
+          }}>
+              <Button variant="primary" size="lg" className="group" onClick={() => window.open('https://calendly.com/aaron-gabriel/jumpstart', '_blank')}>
                 <Calendar className="mr-2 h-5 w-5 group-hover:animate-flow" />
                 Book Your Jumpstart
               </Button>
@@ -61,9 +59,7 @@ const JumpstartPage = () => {
                 </div>
                 <div className="flex-1 pt-2">
                   <h3 className="text-2xl font-display font-semibold text-sage-800 mb-4">We Talk</h3>
-                  <p className="text-lg text-sage-600 mb-6">
-                    A 1-hour call where I ask, you share, and we uncover what you're here to give. My Hakomi background keeps it real and present—you'll feel heard.
-                  </p>
+                  <p className="text-lg text-sage-600 mb-6">A 1-hour call where I ask, you share, and we uncover what you're here to give. You'll walk away with fresh clarity and a deep feeling of being understood.</p>
                   <div className="bg-white rounded-xl p-6 shadow-soft border border-sage-100">
                     <h4 className="text-lg font-semibold text-sage-800 mb-3">What to expect:</h4>
                     <ul className="space-y-3">
@@ -222,12 +218,7 @@ const JumpstartPage = () => {
                     <p className="text-sm text-sage-500 mb-6">
                       3 hours total (2 sessions + build time)
                     </p>
-                    <Button
-                      variant="primary"
-                      size="lg"
-                      className="w-full group"
-                      onClick={() => window.open('https://calendly.com/aaron-gabriel/jumpstart', '_blank')}
-                    >
+                    <Button variant="primary" size="lg" className="w-full group" onClick={() => window.open('https://calendly.com/aaron-gabriel/jumpstart', '_blank')}>
                       <Calendar className="mr-2 h-5 w-5 group-hover:animate-flow" />
                       Book Your Jumpstart
                     </Button>
@@ -285,8 +276,6 @@ const JumpstartPage = () => {
       
       {/* CTA Section */}
       <CallToAction />
-    </main>
-  );
+    </main>;
 };
-
 export default JumpstartPage;
