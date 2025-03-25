@@ -1,3 +1,4 @@
+
 import React from 'react';
 import { Link } from 'react-router-dom';
 import { Mail } from 'lucide-react';
@@ -68,8 +69,8 @@ const Footer = () => {
               <ul className="mt-4 space-y-2">
                 <li className="flex items-center">
                   <Mail className="h-5 w-5 mr-2 text-sage-500" />
-                  <a href="mailto:aaron@unforced.dev" className="text-sage-600 hover:text-sage-900 transition-colors">
-                    aaron@unforced.dev
+                  <a href="mailto:ag@unforced.dev" className="text-sage-600 hover:text-sage-900 transition-colors">
+                    ag@unforced.dev
                   </a>
                 </li>
                 <li>

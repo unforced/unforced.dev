@@ -110,7 +110,7 @@ const ContactPage = () => {
                 
                 <div className="bg-sage-50 rounded-lg p-6 border border-sage-100 text-center">
                   <h3 className="text-xl font-display font-semibold text-sage-800 mb-2">PayPal</h3>
-                  <p className="text-sage-600">ag@unforced.org</p>
+                  <p className="text-sage-600">ag@unforced.dev</p>
                 </div>
               </div>
             </div>
@@ -130,28 +130,10 @@ const ContactPage = () => {
               If you have any questions that aren't answered here, feel free to reach out directly.
             </p>
             
-            <a href="mailto:aaron@unforced.dev" className="inline-flex items-center text-lg text-sage-800 hover:text-sage-600 transition-colors">
+            <a href="mailto:ag@unforced.dev" className="inline-flex items-center text-lg text-sage-800 hover:text-sage-600 transition-colors">
               <Mail className="h-6 w-6 mr-2" />
-              aaron@unforced.dev
+              ag@unforced.dev
             </a>
-          </div>
-        </div>
-      </section>
-      
-      {/* Calendly Embed */}
-      <section className="pb-24 relative">
-        <div className="container mx-auto px-4 sm:px-6 lg:px-8">
-          <div className="max-w-5xl mx-auto">
-            <h2 className="text-3xl font-display font-semibold text-sage-800 mb-8 text-center flowing-border pb-2 inline-block">
-              My Calendar
-            </h2>
-            
-            <div className="bg-white rounded-xl overflow-hidden shadow-soft h-[650px] border border-sage-100">
-              <div className="w-full h-full flex items-center justify-center">
-                {/* This is where a Calendly embed would go */}
-                <p className="text-sage-600 italic">Calendly embed would appear here</p>
-              </div>
-            </div>
           </div>
         </div>
       </section>
