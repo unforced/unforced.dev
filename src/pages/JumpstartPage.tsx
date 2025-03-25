@@ -239,9 +239,7 @@ const JumpstartPage = () => {
             <div className="space-y-6">
               <div className="bg-white rounded-xl p-6 shadow-soft border border-sage-100">
                 <h3 className="text-xl font-display font-semibold text-sage-800 mb-2">How quickly will my website be ready?</h3>
-                <p className="text-sage-600">
-                  After our first session, I typically have your site ready within 3-5 days. The entire process, from first call to completion, usually takes 1-2 weeks, depending on our scheduling.
-                </p>
+                <p className="text-sage-600">For this Jumpstart package, you are limited to a static website with a one way flow of information. This won't include accepting payments, recording user information, or dynamically updating website content; although in certain cases it may be possible to embed forms from other websites and link to separate booking platforms. This website you are browsing is one example of what is possible.</p>
               </div>
               
               <div className="bg-white rounded-xl p-6 shadow-soft border border-sage-100">
