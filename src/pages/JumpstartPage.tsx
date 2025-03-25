@@ -203,7 +203,7 @@ const JumpstartPage = () => {
                       <Check className="h-5 w-5 text-sage-500 mr-3 mt-0.5" />
                       <div>
                         <span className="font-semibold text-sage-800">Technical setup</span>
-                        <p className="text-sage-600 mt-1">Domain, hosting, and all the backend details</p>
+                        <p className="text-sage-600 mt-1">Help you set up free website hosting & configure your domain</p>
                       </div>
                     </li>
                   </ul>
@@ -213,16 +213,13 @@ const JumpstartPage = () => {
                   <div className="bg-sage-50 rounded-xl p-6 border border-sage-100">
                     <span className="text-3xl font-display font-bold text-sage-800">$500</span>
                     <p className="text-sage-600 mb-4">for the complete package</p>
-                    <p className="text-sm text-sage-500 mb-6">
-                      3 hours total (2 sessions + build time)
-                    </p>
+                    <p className="text-sm text-sage-500 mb-6">2 sessions + build time</p>
                     <Button variant="primary" size="lg" className="w-full group" onClick={() => window.open('https://calendly.com/aaron-gabriel/jumpstart', '_blank')}>
                       <Calendar className="mr-2 h-5 w-5 group-hover:animate-flow" />
                       Book Your Jumpstart
                     </Button>
                     <p className="text-sm text-sage-500 mt-4">
-                      Pay via Venmo or Paypal
-                    </p>
+                  </p>
                   </div>
                 </div>
               </div>
