@@ -79,9 +79,7 @@ const AboutPage = () => {
             <h2 className="text-3xl md:text-4xl font-display font-semibold text-sage-800 mb-6 flowing-border pb-2 inline-block">
               My Approach
             </h2>
-            <p className="text-lg text-sage-600">
-              Blending heart, nature, and technology
-            </p>
+            <p className="text-lg text-sage-600">Blending heart, nature, and technology</p>
           </div>
           
           <div className="grid md:grid-cols-3 gap-8 md:gap-12">
@@ -89,10 +87,8 @@ const AboutPage = () => {
               <div className="w-12 h-12 bg-sage-100 rounded-lg flex items-center justify-center mb-6">
                 <Heart className="h-6 w-6 text-sage-600" />
               </div>
-              <h3 className="text-xl font-display font-semibold text-sage-800 mb-3">Somatic Awareness</h3>
-              <p className="text-sage-600">
-                My Hakomi training taught me to listen deeply—not just to words, but to the wisdom of the body. I bring this presence to our work together, creating space for what truly wants to emerge.
-              </p>
+              <h3 className="text-xl font-display font-semibold text-sage-800 mb-3">Somatic Practice</h3>
+              <p className="text-sage-600">My Tai Chi training and my study of the Hakomi method have both taught me to listen deeply—not just to words, but to the wisdom of the body. I bring this presence to our work together, creating space for what truly wants to emerge.</p>
             </div>
             
             <div className="bg-white rounded-xl p-6 shadow-soft transition-all duration-300 hover:shadow-lg hover:translate-y-[-4px]">
@@ -171,19 +167,17 @@ const AboutPage = () => {
               <div className="bg-white rounded-xl p-6 shadow-soft border-l-4 border-l-earth-500">
                 <div className="flex flex-col md:flex-row md:justify-between mb-2">
                   <h3 className="text-xl font-display font-semibold text-sage-800">Hakomi Level 1 Comprehensive</h3>
-                  <span className="text-sage-500">2016</span>
+                  <span className="text-sage-500">March 2025</span>
                 </div>
                 <p className="text-sage-600">Hakomi Institute</p>
               </div>
               
               <div className="bg-white rounded-xl p-6 shadow-soft border-l-4 border-l-water-500">
                 <div className="flex flex-col md:flex-row md:justify-between mb-2">
-                  <h3 className="text-xl font-display font-semibold text-sage-800">Nonprofit Executive Director</h3>
-                  <span className="text-sage-500">2018 - Present</span>
+                  <h3 className="text-xl font-display font-semibold text-sage-800">Mindfulness in Nature Teacher Training</h3>
+                  <span className="text-sage-500">July 2023</span>
                 </div>
-                <p className="text-sage-600">
-                  Leading community-based technology initiatives
-                </p>
+                <p className="text-sage-600">Awake in The Wild</p>
               </div>
             </div>
           </div>
