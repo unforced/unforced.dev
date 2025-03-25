@@ -1,3 +1,4 @@
+
 import React from 'react';
 import Button from '@/components/Button';
 import { MessageCircle, Calendar } from 'lucide-react';
@@ -31,12 +32,12 @@ const HeroSection = () => {
             animationDelay: '1.2s',
             animationFillMode: 'forwards'
           }}>
-              <Button variant="primary" size="lg" className="group" onClick={() => window.open('https://calendly.com/aaron-gabriel/chat', '_blank')}>
+              <Button variant="primary" size="lg" className="group" onClick={() => window.open('https://cal.com/unforced/30min', '_blank')}>
                 <MessageCircle className="mr-2 h-5 w-5 group-hover:animate-flow" />
                 Chat With Me (Free)
               </Button>
               
-              <Button variant="secondary" size="lg" className="group" onClick={() => window.open('https://calendly.com/aaron-gabriel/jumpstart', '_blank')}>
+              <Button variant="secondary" size="lg" className="group" onClick={() => window.open('https://cal.com/unforced/jumpstart-1st-session', '_blank')}>
                 <Calendar className="mr-2 h-5 w-5 group-hover:animate-flow" />
                 Book a Session
               </Button>
