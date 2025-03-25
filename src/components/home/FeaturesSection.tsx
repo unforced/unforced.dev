@@ -28,9 +28,7 @@ const FeaturesSection = () => {
               <Sparkles className="h-6 w-6 text-earth-600" />
             </div>
             <h3 className="text-xl font-display font-semibold text-sage-800 mb-3">I Build</h3>
-            <p className="text-sage-600">
-              Between sessions, I create a website that fits you, a detailed doc of our talk, and a custom how-to guide—using AI and my tech skills to make it happen fast.
-            </p>
+            <p className="text-sage-600">Between sessions, I create a website that fits you, a detailed doc of our talk, and a custom how-to guide—using AI and my tech skills to make it happen fast.</p>
           </div>
           
           <div className="bg-white rounded-xl p-6 shadow-soft transition-all duration-300 hover:shadow-lg hover:translate-y-[-4px]">
