@@ -1,77 +1,39 @@
+# Unforced Development — review draft
 
-# Unforced Development
+Six ordinary HTML pages, one stylesheet, no framework, build step, JavaScript, remote fonts or tracking. Edit HTML directly; navigation and footer are intentionally duplicated to keep hosting and editing simple. Keep shared navigation consistent across all seven HTML documents (including 404).
 
-A personal website for Aaron Gabriel's "Unforced Development" - helping builders, dreamers, and helpers share what they're here to give through a natural, empowering approach based on the philosophy of Wu-Wei (effortless action).
-
-## About This Website
-
-Unforced Development is Aaron Gabriel's mission to support creators in sharing their gifts with the world in a way that feels natural and empowering. This website serves as the digital heart of that mission, featuring:
-
-- **The Jumpstart**: A unique 2-session process that creates a personalized website and toolkit for clients
-- **Aaron's Story**: His journey blending Hakomi psychotherapy, ecopsychology, and creative technology
-- **Service Offerings**: From the core Jumpstart process to ongoing 1:1 support sessions
-- **Simple Booking**: Easy pathways to schedule free consultations or paid sessions
-
-The site embodies Aaron's philosophy of Wu-Wei (effortless action) inspired by his father's Tai Chi practice, his Hakomi psychotherapy training, and his passion for balanced technology creation.
-
-## Target Audience
-
-The website is designed for:
-- Entrepreneurs and small business owners who need to share their work online
-- Creatives looking to establish an authentic digital presence
-- Healers and helpers (such as therapists in Boulder, CO) who want their digital presence to reflect their real-world impact
-- Anyone with gifts to share who struggles with conventional approaches to self-promotion
-
-## Project Technology
-
-This project is built with:
-
-- Vite - For fast, modern frontend tooling
-- TypeScript - For type safety and better developer experience
-- React - For component-based UI development
-- Tailwind CSS - For utility-first styling with custom theme elements
-- shadcn/ui - For accessible, customizable UI components
-- React Router - For client-side routing
-
-## Getting Started
-
-### Running locally
+## Preview locally
 
 ```sh
-# Clone the repository
-git clone <YOUR_GIT_URL>
-
-# Navigate to the project directory
-cd <YOUR_PROJECT_NAME>
-
-# Install dependencies
-npm i
-
-# Start the development server
-npm run dev
+python3 -m http.server 8787 --bind 0.0.0.0
 ```
 
-## Editing & Customization
+Home `/`; Offerings `/offerings/`; About `/about/`; Work `/work/`; Writing `/writing/`; Contact `/contact/`.
 
-This project was created with [Lovable](https://lovable.dev/projects/2d9262cf-37df-41aa-a902-8c415ca29dbc), an AI-powered web development tool. You can:
+For the shared tailnet preview, serve an allowlisted copy of the HTML, CSS, CNAME and robots.txt **outside the checkout** so that `.git` and review notes cannot be downloaded. This branch is not published. All pages use `noindex, nofollow`, and robots.txt disallows crawling. Those are review safeguards, not access controls; don't place private data in HTML comments.
 
-- Edit directly in Lovable's interface for a visual, guided experience
-- Use GitHub Codespaces for development in the browser
-- Clone the repository and edit locally with your preferred tools
+## Publication is explicitly blocked pending review
 
-To create your own version of this site:
-1. Visit [Lovable](https://lovable.dev/projects/2d9262cf-37df-41aa-a902-8c415ca29dbc)
-2. Click "Remix" to create your own copy
-3. Customize to your needs
+- Aaron approves audience, public labels, tier names, pricing, scope, billing, pause/cancellation terms and one-off/Jumpstart scope. No proposed prices from private notes are reproduced.
+- Confirm preferred contact inbox. `ag@unforced.dev` is the address on the existing offering site; this does not prove mailbox delivery.
+- Confirm retaining `https://cal.com/unforced/30min` and whether an introductory call is free. The existing calendar URL resolves to Aaron's titled page, but booking availability/end-to-end submission were not confirmed; no booking was made.
+- Confirm bio wording, CU degree completion and current teaching role. No inferred graduation or current teaching claim.
+- Work examples are self-owned/public work grounded in Aaron's essays, not client endorsements. No client names or testimonials. Obtain permission before including any client case study, screenshot, quotation or outcome.
+- Session transcripts/summaries/next steps are planned, not operational promises. Exercise consent, recording, AI use, access and deletion before changing that copy.
+- Review actual rendered copy/design and accessibility. Confirm scope/timing/handover/account ownership before promising terms.
+- Resolve old hash bookmarks: without client-side JavaScript, old `/#/about` links land on Home; fragments cannot be redirected by the server. Decide whether to accept this or approve a narrowly scoped migration script. No hash routing exists in this draft.
+- **Deployment workflow is deliberately unchanged.** `.github/workflows/deploy.yml` currently builds with npm and uploads `dist`, triggered on main. That is incompatible with this static branch after removing the old build. Before any merge/publication, separately approve a static-pages deployment workflow. Do not run the old manual workflow against this branch. GitHub Pages settings and the gh-pages branch have not been changed.
+- Pages API reports domain `unforced.dev`; neither original main nor gh-pages tracked a CNAME. This draft adds `CNAME` containing the same existing domain; no settings or DNS change.
+- Remove preview banner, noindex directives and robots disallow only with explicit publication approval.
 
-## Deployment
+## Public copy sources
 
-This site is automatically deployed via GitHub Pages when changes are pushed to the main branch.
+Reviewed 2026-10-02:
+- https://unforced.dev/#/contact — published email and existing calendar destinations.
+- https://unforced.org/ — roots, Tai Ji, location and visual tone (cream background, serif headings).
+- https://unforced.org/writing/two-years-at-atlas/ — developer relations, education, Parachute, Learn Vibe Build. Historical account, not confirmation of current credentials.
+- https://unforced.org/writing/building-in-the-margins/ — NatalEngine and relationship-led building.
+- https://unforced.org/writing/building-with-words/
+- https://unforced.org/writing/how-to-build-and-host-your-website/
 
-To deploy manually:
-1. Build the project: `npm run build`
-2. The `dist` folder contains the deployable files
-
-## License
-
-This project is available for use and modification under standard open-source terms.
+Internal working brief informed the shapes and draft wording; no private prices or client identities were carried into the site.
